@@ -1,8 +1,14 @@
 <section class="cart-show">
-
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
+
+  <% if enhanced_cart.blank? %>
+  <div class="alert alert-primary" role="alert">
+    Your cart is empty. Return <a href="#" class="alert-link"><%= link_to "Home", root_path %></a>
+  </div>
+
+    <% else %>
 
   <div class="panel panel-default items">
     <table class="table table-bordered">
@@ -48,5 +54,5 @@
       <% end %>
     </div>
   </div>
-
+<% end %>
 </section>
