@@ -2,6 +2,16 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Final Product
+> Home Page
+![home](https://github.com/wawwen1/jungle-rails/blob/master/docs/jungle-homepage.png?raw=true)
+
+>Product Page
+![product](https://github.com/wawwen1/jungle-rails/blob/master/docs/jungle-productpage.png?raw=true)
+
+> Cart
+![cart](https://github.com/wawwen1/jungle-rails/blob/master/docs/jungle-cartpayment.png?raw=true)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
